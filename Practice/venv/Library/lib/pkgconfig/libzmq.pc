@@ -1,0 +1,12 @@
+prefix=c:/Users/ratna/Desktop/100xML/Practice/venv/Library
+exec_prefix=c:/Users/ratna/Desktop/100xML/Practice/venv/Library
+libdir=c:/Users/ratna/Desktop/100xML/Practice/venv/Library/lib
+includedir=c:/Users/ratna/Desktop/100xML/Practice/venv/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.5
+Libs: -L${libdir} -lzmq
+Libs.private: 
+Requires.private: 
+Cflags: -I${includedir} 
